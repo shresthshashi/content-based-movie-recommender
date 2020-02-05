@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/template.css') }}">
+  <title>Choose</title>
+</head>
+
+<body>
+  <div class="main">
+    <p class="sel" align="center">Selection Choices</p>
+    <form action="/form1" method="post">
+<p>
+            
+			 <a align="center">&nbsp&nbsp&nbspCategory(1 for movie,2 for games,3 for series):</a><input class="select" type="text" align="center" name="cat">
+			   <br>
+			   
+            
+			&nbsp&nbsp&nbsp 
+			 <a align="center">Title:</a><input class="select" type="text" align="center" name="tit">
+			&nbsp&nbsp&nbsp 
+			 <a align="center">no of items:</a><input class="select" type="text" align="center" name="choice">
+          </p>
+			<a align="center"><input class="submit" input type="submit" name= "form" value="Submit"></input></a>
+		  </form>
+
+	
+    </div>
+
+
+</div>
+</body>
+
+</html>
